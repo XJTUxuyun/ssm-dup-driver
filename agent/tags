@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FREE_INIT	agent.c	13;"	d	file:
+MAX_MSG_LEN	agent.c	19;"	d	file:
+NETLINK_TEST	agent.c	34;"	d	file:
+NLMSG_TYPE_APP	agent.c	/^	NLMSG_TYPE_APP,$/;"	e	enum:__anon1	file:
+NLMSG_TYPE_KERNEL	agent.c	/^	NLMSG_TYPE_KERNEL,$/;"	e	enum:__anon1	file:
+NLMSG_TYPE_NONE	agent.c	/^	NLMSG_TYPE_NONE=0,$/;"	e	enum:__anon1	file:
+NLMSG_TYPE_SETPID	agent.c	/^	NLMSG_TYPE_SETPID,$/;"	e	enum:__anon1	file:
+cc	Makefile	/^cc := gcc$/;"	m
+len	agent.c	/^	int len;$/;"	m	struct:nlmsg	file:
+main	agent.c	/^int main(int argc, char **argv){$/;"	f
+msg	agent.c	/^	char msg[MAX_MSG_LEN];$/;"	m	struct:nlmsg	file:
+netlink_close	agent.c	/^void netlink_close(int sockfd){$/;"	f
+netlink_open	agent.c	/^int netlink_open(void){$/;"	f
+netlink_recv	agent.c	/^int netlink_recv(int sockfd, struct nlmsg *pmsg){$/;"	f
+netlink_send	agent.c	/^int netlink_send(int sockfd, struct nlmsg *pmsg){$/;"	f
+nlmsg	agent.c	/^struct nlmsg{$/;"	s	file:
+objects	Makefile	/^objects := agent.o$/;"	m
+type	agent.c	/^	int type;$/;"	m	struct:nlmsg	file:

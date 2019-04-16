@@ -1,0 +1,1 @@
+cmd_/home/hnsd/桌面/nm/drv/nm.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-220.7.1.1.eqjd.ky3.2.x86_64/scripts/module-common.lds --build-id -o /home/hnsd/桌面/nm/drv/nm.ko.unsigned /home/hnsd/桌面/nm/drv/nm.o /home/hnsd/桌面/nm/drv/nm.mod.o 
